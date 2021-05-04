@@ -5,6 +5,7 @@ import Effect from "./components/effect";
 import Redux from "./components/redux";
 import ReduxThree from './components/redux-three';
 import ReduxTwo from './components/redux-two';
+import StyledComponents from "./components/styled-components";
 import UseLoadingList from "./hooks/useLoadingList";
 import UseStatusTest from "./hooks/useStatusTest";
 import store from './store';
@@ -72,6 +73,10 @@ function App() {
         <Redux></Redux>
         <ReduxTwo></ReduxTwo>
         <ReduxThree></ReduxThree>
+        <hr/>
+
+        {/* ##################################### */}
+        <StyledComponents></StyledComponents>
       </div>
     </Provider>
   );
